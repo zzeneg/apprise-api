@@ -1,2 +1,2 @@
 django
-apprise
+git+https://github.com/caronc/apprise@master

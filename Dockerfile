@@ -18,7 +18,7 @@ COPY ./requirements.txt etc/requirements.txt
 
 # Install Python
 RUN apt-get update && \
-    apt-get install -y curl python3 python3-pip && \
+    apt-get install -y curl python3 python3-pip git && \
     pip3 install -r etc/requirements.txt gunicorn
 
 # Install s6-overlay
